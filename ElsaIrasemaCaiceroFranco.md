@@ -18,6 +18,7 @@ impida un cambio efectivo
  
 1. ¿Qué es un repositorio?
 Es un lugar donde el sistema de control de versiones mantiene el seguimiento de todos los cambios realizados. 
+
 1. ¿Qué se debe almacenar en un repositorio?
 Todo. Todo lo que tenga que ver con nuestro proyecto y obviamente, el código fuente, su archivo de compilación (makefile, build.xml), de configuración y pruebas de unidad
 
@@ -53,8 +54,8 @@ Proceso de combinar dos ramas, estos cambios deben ser aprobados por los colabor
 1. ¿Qué es un *strict locking*?
 Restringe que un archivo pueda ser modificado al mismo tiempo por dos personas diferentes hasta 
 Si alguien quiere modificar x archivo y este está siendo editado por otro integrante, entonces no podrá modificarlo mientras esté editándolo alguien más.
-
 Se pide al repositorio para hacer cambios a  1 artefacto y evintando cambios simultáneos.
+
 1. ¿Qué es un *optimistic locking*?
 Permite que múltiples desarrolladores trabajen en el mismo código en el mismo archivo con la suposición de que la mayoría de estos archivos no tendrán conflicto. 
 
